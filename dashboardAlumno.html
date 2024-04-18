@@ -9,12 +9,12 @@
 </head>
 <body>
     <div class="container">
-        <h1>Dashboard del Alumno</h1>
+        <h1>Bienvenido</h1>
         
         <div class="profile">
             <h2>Mi Perfil</h2>
             <label for="nombre">Nombre:</label>
-            <p id="nombre">Juan Pérez</p>
+            <p id="nombre">Angelo Urbano</p>
             <label for="edad">Edad:</label>
             <p id="edad">20 años</p>
         
@@ -23,12 +23,13 @@
         <div class="survey">
             <h2>Encuesta de Profesores</h2>
             <p>Selecciona tu profesor favorito:</p>
-            <label><input type="radio" name="profesor" value="profe1"> Profesor 1</label>
-            <label><input type="radio" name="profesor" value="profe2"> Profesor 2</label>
-         
+            <label><input type="radio" name="profesor" value="profe1"> Franchesco de la rossa</label>
+            <label><input type="radio" name="profesor" value="profe2"> JHONATAN ABAL MEJIA </label>
+            <label><input type="radio" name="profesor" value="profe2"> AGUSTIN EDUARDO ULLON RAMIREZ </label>
         </div>
-
         <button class="btn" onclick="submitSurvey()">Enviar</button>
+        <button class="btn" onclick="cerrarSesion()">Cerrar Sesión</button>
+        
     </div>
 
     <script>
@@ -36,5 +37,6 @@
             alert("Encuesta enviada correctamente.");
         }
     </script>
+<script src="js/login.js"></script>
 </body>
 </html>

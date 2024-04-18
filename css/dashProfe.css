@@ -31,3 +31,27 @@ h1, h2 {
     display: none;
     margin-top: 10px;
 }
+.btn {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.btnIcon i {
+    margin-right: 10px;
+}
+.btnIcon {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}

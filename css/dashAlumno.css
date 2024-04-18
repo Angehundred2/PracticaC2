@@ -55,4 +55,11 @@
         .btn:hover {
             background-color: #0056b3;
         }
- 
+        .btnIcon i {
+            margin-right: 10px;
+        }
+        .btnIcon {
+            display: inline-flex;
+            align-items: center;
+            margin-top: 10px;
+        }

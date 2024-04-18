@@ -10,20 +10,23 @@
 <body>
 
     <div class="container">
-        <h1>Dashboard del Profesor</h1>
+        <h1>BIENVENIDO</h1>
         <h2>Mis Cursos</h2>
         <ul class="course-list">
             <li class="course-item" onclick="toggleDescription('curso1')">PROGRAMACION</li>
             <div id="curso1" class="description">
-                <h3>SERA PRESENCIAL</h3>
-               
+                <h3>BASE DE DATOS</h3>
+                <h3>TURNO NOCHE</h3>
+                <h3>DE 2 A 7</h3>
             </div>
             <li class="course-item" onclick="toggleDescription('curso2')">BASE DE DATOS</li>
             <div id="curso2" class="description">
-                <h3>SERA VIRTUAL</h3>
-                
+                <h3>PROGRAMACION</h3>
+                <h3>TURNO NOCHE</h3>
+                <h3>DE 7 A 8</h3>
             </div>
         </ul>
+        <button class="btn" onclick="cerrarSesion()">Cerrar Sesión</button>
     </div>
 
     <script>
@@ -36,6 +39,8 @@
             }
         }
     </script>
+
+ <script src="js/login.js"></script>
  
 </body>
 </html>

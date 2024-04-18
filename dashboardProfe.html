@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dashProfe.css">
+
+    <title>Dashboard del Profesor</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dashboard del Profesor</h1>
+        <h2>Mis Cursos</h2>
+        <ul class="course-list">
+            <li class="course-item" onclick="toggleDescription('curso1')">PROGRAMACION</li>
+            <div id="curso1" class="description">
+                <h3>SERA PRESENCIAL</h3>
+               
+            </div>
+            <li class="course-item" onclick="toggleDescription('curso2')">BASE DE DATOS</li>
+            <div id="curso2" class="description">
+                <h3>SERA VIRTUAL</h3>
+                
+            </div>
+        </ul>
+    </div>
+
+    <script>
+        function toggleDescription(courseId) {
+            var description = document.getElementById(courseId);
+            if (description.style.display === "block") {
+                description.style.display = "none";
+            } else {
+                description.style.display = "block";
+            }
+        }
+    </script>
+ 
+</body>
+</html>
